@@ -141,20 +141,7 @@ Ejecuta consultas KQL.
 
 Verifica métricas de la VNet y actividad de las VMs.
 
-## Diagrama conceptual (texto)
-Código
-Azure Subscription
-└── Resource Group
-    ├── VNet 10.0.0.0/16
-    │   ├── Subnet Web (NSG Web)
-    │   │   └── VM Windows RH
-    │   ├── Subnet App (NSG App)
-    │   │   └── VM Windows Almacén
-    │   ├── Subnet DB (NSG DB)
-    │   │   └── VM Linux Prod
-    │   └── AzureBastionSubnet
-    │       └── Azure Bastion + Public IP
-    └── Log Analytics Workspace
+
 =======
 # proyecto-az104-infraestructura-base
 Infraestructura base en Azure creada con Terraform. Incluye VNet, subnets, máquinas virtuales, NSG y Bastion. Proyecto orientado a demostrar habilidades en cloud, IaC y administración de recursos en Azure.
